@@ -198,4 +198,3 @@ The project authors are:
 - [Teodora Mitrevska](https://de.linkedin.com/in/teodora-mitrevska-b444a810a) (@[TeodoraLmu](https://github.com/TeodoraLmu)): [product management](/pitch)
 - [Uroš Hudomalj](https://ch.linkedin.com/in/uro%C5%A1-hudomalj-3922a1252) (@[uhudo](https://github.com/uhudo)): [smart contracts](/projects/i-go-protect/smart_contracts) and [UI](/projects/frontend/)
 - [Alexander Marinšek](https://be.linkedin.com/in/alexander-marinsek) (@[AlexanderMarinsek](https://github.com/AlexanderMarinsek)): [backend](/projects/i-go-protect/validator-script)
-
