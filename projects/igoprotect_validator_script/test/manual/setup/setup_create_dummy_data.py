@@ -1,6 +1,6 @@
 from pathlib import Path
 import sys
-sys.path.append(str(Path(*Path(__file__).parent.parts[:-4])), 'i-go-protect')
+sys.path.append(str(Path(*Path(__file__).parent.parts[:-4], 'i-go-protect')))
 sys.path.append(str(Path(*Path(__file__).parent.parts[:-3])))
 
 import base64
@@ -435,6 +435,10 @@ def noticeboard_w_validators_and_delegators_client(
             ),
         )
 
+    print(nbrd_client.app_id)
+    print(val_app_id)
+    # print(result)
+
     assert result.confirmed_round
 
     return noticeboard_client
@@ -531,10 +535,13 @@ if __name__ == '__main__':
         validator_list
     )
 
-    noticeboard_w_validators_and_delegators_client(
+    res = noticeboard_w_validators_and_delegators_client(
         algorand_client,
         nbrd_client,
         delegator_list,
     )
+
+    print(validator_list)
+    print(delegator_list)
 
     pass
